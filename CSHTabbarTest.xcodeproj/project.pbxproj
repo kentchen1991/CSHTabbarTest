@@ -15,6 +15,14 @@
 		5C1F5EE91D251CDC00C11211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1F5EE71D251CDC00C11211 /* LaunchScreen.storyboard */; };
 		5C1F5EF41D251CDD00C11211 /* CSHTabbarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5EF31D251CDD00C11211 /* CSHTabbarTestTests.m */; };
 		5C1F5EFF1D251CDD00C11211 /* CSHTabbarTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5EFE1D251CDD00C11211 /* CSHTabbarTestUITests.m */; };
+		5C1F5F151D251CED00C11211 /* TabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F0E1D251CED00C11211 /* TabItem.m */; };
+		5C1F5F161D251CED00C11211 /* TabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F101D251CED00C11211 /* TabView.m */; };
+		5C1F5F171D251CED00C11211 /* XDJTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F121D251CED00C11211 /* XDJTabbar.m */; };
+		5C1F5F181D251CED00C11211 /* XDJTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F141D251CED00C11211 /* XDJTabbarVC.m */; };
+		5C1F5F1B1D251D2500C11211 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F1A1D251D2500C11211 /* UIView+Frame.m */; };
+		5C1F5F1E1D251D5400C11211 /* XDJHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F1D1D251D5400C11211 /* XDJHomeVC.m */; };
+		5C1F5F211D251D6200C11211 /* XDJAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F5F201D251D6200C11211 /* XDJAccountVC.m */; };
+		5C1F5F261D251E3500C11211 /* post_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1F5F251D251E3500C11211 /* post_normal@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,21 @@
 		5C1F5EFA1D251CDD00C11211 /* CSHTabbarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSHTabbarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1F5EFE1D251CDD00C11211 /* CSHTabbarTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSHTabbarTestUITests.m; sourceTree = "<group>"; };
 		5C1F5F001D251CDD00C11211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1F5F0D1D251CED00C11211 /* TabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabItem.h; sourceTree = "<group>"; };
+		5C1F5F0E1D251CED00C11211 /* TabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabItem.m; sourceTree = "<group>"; };
+		5C1F5F0F1D251CED00C11211 /* TabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabView.h; sourceTree = "<group>"; };
+		5C1F5F101D251CED00C11211 /* TabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabView.m; sourceTree = "<group>"; };
+		5C1F5F111D251CED00C11211 /* XDJTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJTabbar.h; sourceTree = "<group>"; };
+		5C1F5F121D251CED00C11211 /* XDJTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJTabbar.m; sourceTree = "<group>"; };
+		5C1F5F131D251CED00C11211 /* XDJTabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJTabbarVC.h; sourceTree = "<group>"; };
+		5C1F5F141D251CED00C11211 /* XDJTabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJTabbarVC.m; sourceTree = "<group>"; };
+		5C1F5F191D251D2500C11211 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		5C1F5F1A1D251D2500C11211 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5C1F5F1C1D251D5400C11211 /* XDJHomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJHomeVC.h; sourceTree = "<group>"; };
+		5C1F5F1D1D251D5400C11211 /* XDJHomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJHomeVC.m; sourceTree = "<group>"; };
+		5C1F5F1F1D251D6200C11211 /* XDJAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDJAccountVC.h; sourceTree = "<group>"; };
+		5C1F5F201D251D6200C11211 /* XDJAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDJAccountVC.m; sourceTree = "<group>"; };
+		5C1F5F251D251E3500C11211 /* post_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "post_normal@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +124,18 @@
 		5C1F5ED81D251CDC00C11211 /* CSHTabbarTest */ = {
 			isa = PBXGroup;
 			children = (
+				5C1F5F191D251D2500C11211 /* UIView+Frame.h */,
+				5C1F5F1A1D251D2500C11211 /* UIView+Frame.m */,
+				5C1F5F0C1D251CED00C11211 /* Tabbar */,
 				5C1F5EDC1D251CDC00C11211 /* AppDelegate.h */,
 				5C1F5EDD1D251CDC00C11211 /* AppDelegate.m */,
+				5C1F5F1F1D251D6200C11211 /* XDJAccountVC.h */,
+				5C1F5F201D251D6200C11211 /* XDJAccountVC.m */,
+				5C1F5F1C1D251D5400C11211 /* XDJHomeVC.h */,
+				5C1F5F1D1D251D5400C11211 /* XDJHomeVC.m */,
 				5C1F5EDF1D251CDC00C11211 /* ViewController.h */,
 				5C1F5EE01D251CDC00C11211 /* ViewController.m */,
+				5C1F5F251D251E3500C11211 /* post_normal@2x.png */,
 				5C1F5EE21D251CDC00C11211 /* Main.storyboard */,
 				5C1F5EE51D251CDC00C11211 /* Assets.xcassets */,
 				5C1F5EE71D251CDC00C11211 /* LaunchScreen.storyboard */,
@@ -138,6 +169,21 @@
 				5C1F5F001D251CDD00C11211 /* Info.plist */,
 			);
 			path = CSHTabbarTestUITests;
+			sourceTree = "<group>";
+		};
+		5C1F5F0C1D251CED00C11211 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				5C1F5F0D1D251CED00C11211 /* TabItem.h */,
+				5C1F5F0E1D251CED00C11211 /* TabItem.m */,
+				5C1F5F0F1D251CED00C11211 /* TabView.h */,
+				5C1F5F101D251CED00C11211 /* TabView.m */,
+				5C1F5F111D251CED00C11211 /* XDJTabbar.h */,
+				5C1F5F121D251CED00C11211 /* XDJTabbar.m */,
+				5C1F5F131D251CED00C11211 /* XDJTabbarVC.h */,
+				5C1F5F141D251CED00C11211 /* XDJTabbarVC.m */,
+			);
+			path = Tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C1F5EE91D251CDC00C11211 /* LaunchScreen.storyboard in Resources */,
+				5C1F5F261D251E3500C11211 /* post_normal@2x.png in Resources */,
 				5C1F5EE61D251CDC00C11211 /* Assets.xcassets in Resources */,
 				5C1F5EE41D251CDC00C11211 /* Main.storyboard in Resources */,
 			);
@@ -270,8 +317,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1F5F1B1D251D2500C11211 /* UIView+Frame.m in Sources */,
+				5C1F5F211D251D6200C11211 /* XDJAccountVC.m in Sources */,
 				5C1F5EE11D251CDC00C11211 /* ViewController.m in Sources */,
+				5C1F5F1E1D251D5400C11211 /* XDJHomeVC.m in Sources */,
+				5C1F5F161D251CED00C11211 /* TabView.m in Sources */,
 				5C1F5EDE1D251CDC00C11211 /* AppDelegate.m in Sources */,
+				5C1F5F151D251CED00C11211 /* TabItem.m in Sources */,
+				5C1F5F181D251CED00C11211 /* XDJTabbarVC.m in Sources */,
+				5C1F5F171D251CED00C11211 /* XDJTabbar.m in Sources */,
 				5C1F5EDB1D251CDC00C11211 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
